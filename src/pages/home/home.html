@@ -20,12 +20,12 @@
     src={{disco.imagen}} >
     </ion-col>
     <ion-col>
-      <h2 (click)="switchPage(10)"  >
+      <h2 (click)="clickTracks(disco.id)"  >
         {{disco.album}}
       </h2 >
-    <h3 (click)="switchPage(6)">{{disco.artista}}</h3>
+    <h3 (click)="clickArtist(disco.id)">{{disco.artista}}</h3>
     <h4>{{disco.anio}}</h4>
-    <img (click)="switchPage(14)" src="../assets/imgs/5.png">
+    <img (click)="clickReview(disco.id)" src="../assets/imgs/5.png">
   </ion-col>
     </ion-row>
   </ion-card-content>

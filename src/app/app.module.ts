@@ -24,7 +24,8 @@ import { RevdbPage } from '../pages/revdb/revdb';
 import { RevmjPage } from '../pages/revmj/revmj';
 import { RevwallPage } from '../pages/revwall/revwall';
 import { CaratulaPage } from '../pages/caratula/caratula';
-
+import { BiografiaPage } from '../pages/biografia/biografia';
+import { TracksPage } from '../pages/tracks/tracks';
 @NgModule({
   declarations: [
     MyApp,
@@ -46,7 +47,9 @@ import { CaratulaPage } from '../pages/caratula/caratula';
     RevdbPage,
     RevwallPage,
     RevmjPage,
-    CaratulaPage
+    CaratulaPage,
+    BiografiaPage,
+    TracksPage
 
   ],
   imports: [
@@ -74,7 +77,9 @@ import { CaratulaPage } from '../pages/caratula/caratula';
     RevdbPage,
     RevwallPage,
     RevmjPage,
-    CaratulaPage
+    CaratulaPage,
+    BiografiaPage,
+    TracksPage
   ],
   providers: [
     StatusBar,
